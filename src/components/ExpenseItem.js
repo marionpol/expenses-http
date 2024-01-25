@@ -6,7 +6,7 @@ function ExpenseItem(props){
         <div>{props.expenseData.date.toString()}</div>
         <div className='expense-item_description'>
             <h2>{props.expenseData.title}</h2>
-            <div>{props.expenseData.price}</div>
+            <div>{props.expenseDataprice}</div>
         </div>
     </div>)
 }
