@@ -3,12 +3,13 @@ import ExpenseDate from './ExpenseDate'
 
 function ExpenseItem(props){
 
+
     return(<div className="expense-item">  
        <ExpenseDate
        date={props.expenseData.date}/>
-        <div className='expense-item_description'>
+        <div className='expense-item__description'>
             <h2>{props.expenseData.title}</h2>
-            <div>{props.expenseDataprice}</div>
+            <div className='expense-item__price'>{props.expenseData.price}</div>
         </div>
     </div>)
 }

@@ -9,9 +9,9 @@ function App() {
     price: 30.99
   },
   {
-    date: new Date(2023, 9, 6),
-    title: 'New book',
-    price: 30.99
+    date: new Date(2024, 25, 1),
+    title: 'New jeans',
+    price: 99.99
   }
 ]
   return (
