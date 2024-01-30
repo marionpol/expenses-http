@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './Expenses.css'
-import Card from'./UI/Card'
+import Card from'../UI/Card'
 import ExpenseItem from './ExpenseItem'
-import ExpensesFilter from './Expenses/ExpensesFilter'
+import ExpensesFilter from './ExpensesFilter'
 
 const Expenses = (props) => {
     const [filteredYear, setFilteredYear] = useState('');

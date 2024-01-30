@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import Expenses from './components/Expenses';
+import Expenses from './components/Expenses/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 const DYMMY_EXPENSES= [{
