@@ -4,7 +4,7 @@ import Expenses from './components/Expenses';
 import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
-  const expenses = [{
+  const expenses= [{
     date: new Date(2023, 9, 6),
     title: 'New book',
     price: 30.99
