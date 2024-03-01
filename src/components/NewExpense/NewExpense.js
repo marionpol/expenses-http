@@ -22,6 +22,10 @@ const NewExpense = (props) => {
         setEditForm(false); 
     };
 
+    const cancelHandler = () => {
+        setEditForm(false);
+    };
+
     return (
         <div className="new-expense">
             {!editForm && (
@@ -29,7 +33,10 @@ const NewExpense = (props) => {
             )}
             {editForm && (                
                 <div>
-                    <ExpenseForm onSaveExpenseData={saveExpenseDataHandler} />
+                    <ExpenseForm 
+                        onSaveExpenseData={saveExpenseDataHandler}
+                        onCancel={cancelHandler}  // Pass cancelHandler function
+                    />
                     <button onClick={stopEditingHandler}>Cancel</button>
                 </div>
             )}
