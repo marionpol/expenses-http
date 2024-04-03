@@ -6,16 +6,16 @@
         "amount": 39.99
     },
     {   
-    "id": "id2",
-    "date": "2024-01-18T22:00:00.000Z",
-    "title": "New jeans",
-    "amount": 99.99
+        "id": "id2",
+        "date": "2024-01-18T22:00:00.000Z",
+        "title": "New jeans",
+        "amount": 99.99
     },
     {   
-    "id": "id3",
-    "date": "2024-01-24T22:00:00.000Z",
-    "title": "New bag",
-    "amount": 139.99
+        "id": "id3",
+        "date": "2024-01-24T22:00:00.000Z",
+        "title": "New bag",
+        "amount": 139.99
     }
 
 ]
